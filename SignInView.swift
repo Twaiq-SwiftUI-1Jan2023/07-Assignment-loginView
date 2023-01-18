@@ -30,7 +30,8 @@ struct SignInView: View {
                 }
                 
                 
-                /* EMAIL FIELD*/
+                /* userName Field */
+                
                 VStack{
                     HStack  {
                         TextField("حساب المستخدم", text: self.$userName
@@ -64,9 +65,8 @@ struct SignInView: View {
                 .padding(.top,20)
             
 
-    
         
-            }// the big one
+            }// the big stack
 
             .padding()
             .padding(.bottom, 5)
